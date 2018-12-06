@@ -1,0 +1,34 @@
+body {
+    background-color: darkblue;
+    margin: 60px auto;
+    width: 70%;
+    max-width: 1000px;
+}
+
+#battleshipLogo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: 60px auto;
+  }
+
+#Grid {
+	position: relative;
+	margin:0 auto 2em auto;
+	width: 500px;
+	height: 500px;
+}
+
+#Grid div {
+	position: absolute;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+	background: #f6f8f9;          /* Old browsers */
+	border: 1px solid #ddd;
+	width: 50px;
+	height: 50px;
+}
